@@ -1,0 +1,111 @@
+/* IMPORT FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Harmattan&family=Inter&family=Montserrat&family=Roboto&display=swap");
+
+/*    
+    font-family: 'Harmattan', sans-serif;
+
+    font-family: 'Inter', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+     */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #303030;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+footer {
+  padding: 2rem;
+}
+footer p {
+  color: #ededed;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+.header {
+  font-family: "Roboto", sans-serif;
+  color: #ededed;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+.trackm8-txt {
+  color: #8083ff;
+}
+
+.wrapper {
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 90vh;
+  width: 100vw;
+}
+.inputDiv {
+  min-height: 20rem;
+  width: 50rem;
+  background-color: #ededed;
+  border: 1rem solid #8083ff;
+  font-size: 2.2rem;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outputDiv {
+  min-height: 20rem;
+  width: 50rem;
+  background-color: #ededed;
+  font-size: 3.2rem;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rem solid #8083ff;
+}
+
+#enterInput {
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  background-color: #474554;
+  border: none;
+  color: #ededed;
+}
+
+#enterInput:hover {
+  cursor: pointer;
+  background-color: #7c504e;
+  color: #d3fbd8;
+}
+
+#getInput {
+  height: 5rem;
+  width: 30rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border: 0.5rem solid #474554;
+  font-size: 2.5rem;
+}
